@@ -1,3 +1,5 @@
-impares =[x for x in range(7,16) if x %2 != 0]
+x = float(input("Digite um valor: "))
+y = float(input("Digite um valor: "))
+z = float(input("Digite um valor: "))
 
-printf(impares)
+print(f"O maior valor é: {max(x, y, z)}")
