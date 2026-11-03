@@ -6,7 +6,7 @@ z = float(input("Digite um valor: "))
 
 if x >= y and x >= z:
     print(f"O maior valor é {x}")
-elif( y >= x and y >= z ):
+elif y >= x and y >= z :
     print(f"O maior valor é {y}")
 else:
     print(f"O maior valor é: {z}")

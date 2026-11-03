@@ -1,5 +1,15 @@
-x = float(input("Digite um valor: "))
-y = float(input("Digite um valor: "))
-z = float(input("Digite um valor: "))
+def fib(n):
+    """Escreve a série de Fibonacci até n."""
+    a, b = 0, 1
+    while a < n:
+        print(a, end=' ')
+        a, b = b, a + b
+    print()
 
-print(f"O maior valor é: {max(x, y, z)}")
+# Chamada da função
+fib(2000)
+# Saída: 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597
+
+# Exibindo a documentação da função (docstring)
+print(fib.__doc__)
+# Saída: Escreve a série de Fibonacci até n.

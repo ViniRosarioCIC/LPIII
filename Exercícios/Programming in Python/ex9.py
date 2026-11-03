@@ -7,3 +7,4 @@ z = float(input("Digite o terceiro numero: "))
 lista = sorted((x,y,z), reverse=True)
 
 print(f"Ordem decrescente: {lista}")
+
